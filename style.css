@@ -302,5 +302,9 @@ input {
   input {
     display: none;
   }
+
+  .search-button {
+    display: none;
+  }
 }
 /* Main Section Ends */
