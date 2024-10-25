@@ -93,6 +93,7 @@ input {
 }
 
 .aside {
+  /* position: sticky; */
   font-family: Roboto, Arial, sans-serif;
   background-color: #c4bce0;
   min-height: 100vh;
@@ -109,6 +110,10 @@ input {
   label:hover {
     background-color: #9ea2e0;
   }
+}
+
+.floating-labels {
+  position: fixed;
 }
 
 .mobile-nav {
