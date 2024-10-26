@@ -179,7 +179,7 @@ input {
       display: none;
     }
     .gif {
-      display: inline-block;
+      display: inline;
     }
   }
 }
