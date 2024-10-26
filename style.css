@@ -227,7 +227,7 @@ input {
   /* text-align: justify; */
   font-size: 14px;
   height: 100%;
-  line-height: 1;
+  line-height: auto;
   margin-right: 20px;
   overflow: hidden;
   text-overflow: ellipsis;
