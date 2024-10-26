@@ -107,6 +107,9 @@ input {
     border-radius: 12px;
     cursor: pointer;
     font-size: 14px;
+    align-items: baseline;
+    justify-content: baseline;
+    margin-left: 8px;
   }
   label:hover {
     background-color: #9ea2e0;
