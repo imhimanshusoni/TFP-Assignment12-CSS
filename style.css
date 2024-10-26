@@ -153,7 +153,6 @@ input {
 .box-container {
   display: flex;
   flex-direction: column;
-  /* background-color: #cccccc; */
   width: 260px;
   height: 212px;
   padding: 4px;
@@ -217,16 +216,7 @@ input {
 }
 
 .title {
-  /* display: --webkit-box; */
-  /* -webkit-line-clamp: 2; */
-  /* -webkit-box-orient: vertical; */
-  /* display: inline-block;
-  font-weight: 500;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  line-height: 1;
-  margin-right: 30px; */
-  /* text-align: justify; */
+  cursor: pointer;
   font-size: 14px;
   height: 100%;
   line-height: auto;
@@ -240,14 +230,12 @@ input {
 }
 
 .card-meta-data-container {
-  /* background-color: gray; */
   height: 14px;
   margin: 8px 0 0;
   border-radius: 12px;
 }
 
 .views {
-  /* font-weight: 200; */
   font-size: 12px;
   font-weight: 400;
   color: #606060;
