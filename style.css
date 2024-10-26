@@ -106,6 +106,7 @@ input {
     font-weight: 500;
     border-radius: 12px;
     cursor: pointer;
+    font-size: 14px;
   }
   label:hover {
     background-color: #9ea2e0;
@@ -313,6 +314,14 @@ input {
 
   .search-button {
     display: none;
+  }
+
+  .nav-container {
+    padding: 16px 18px;
+  }
+
+  .time-stamp {
+    z-index: 1;
   }
 }
 /* Main Section Ends */
