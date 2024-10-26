@@ -292,7 +292,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 2;
+  z-index: 1;
 }
 
 @media (width <= 768px) {
@@ -318,10 +318,6 @@ input {
 
   .nav-container {
     padding: 16px 18px;
-  }
-
-  .time-stamp {
-    z-index: 1;
   }
 }
 /* Main Section Ends */
