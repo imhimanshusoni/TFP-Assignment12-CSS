@@ -28,7 +28,6 @@
   transition: 200ms;
   cursor: pointer;
   font-weight: 500;
-  /* font-size: 15px; */
   &:hover {
     border-radius: 10px 0px;
     outline: 2px solid blue;
@@ -74,8 +73,7 @@ input {
 .profile {
   height: 35px;
   width: 35px;
-  /* background-color: #008b8b; */
-  background: no-repeat center/80% url(./Icons/teddy.webp);
+  background-color: #008b8b;
   border-radius: 50%;
   border: 2px solid gold;
   transition: 0.2s;
