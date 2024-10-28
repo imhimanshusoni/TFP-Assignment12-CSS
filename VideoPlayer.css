@@ -67,6 +67,9 @@ iframe {
 }
 
 .subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   background-color: #f0f0f0;
   height: 36px;
   width: 150.46px;
@@ -77,4 +80,5 @@ iframe {
 .subscribe-button {
   font-size: 14px;
   font-weight: 500;
+  border: none;
 }
