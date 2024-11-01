@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.main-component {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding-top: 70.4px;
+}
+
+.primary {
+  margin: 0 0 0 24px;
+  padding: 24px 24px 24px 0;
+}
+
+.video-iframe {
+  width: 914px;
+  height: 514px;
+}
+
+iframe {
+  border-radius: 12px;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.channel-details-options {
+  display: flex;
+}
+
+.video-title-container {
+  font-size: 1.25rem;
+  color: #0f0f0f;
+  padding: 16px 0;
+}
+
+.channel-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.channel-pic {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.subscriptions-count {
+  color: #606060;
+  font-size: 0.8rem;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f0f0f0;
+  height: 36px;
+  margin: 0 14px;
+  padding: 0 8px;
+  border-radius: 18px;
+  position: relative;
+}
+
+.subscribe:hover {
+  background-color: #e0e0e0;
+}
+
+.subscribe:active {
+  .sub-hover-options {
+    display: flex;
+  }
+}
+.sub-hover-options {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  bottom: 36px;
+  height: 160px;
+  padding: 8px 0;
+  background-color: white;
+}
+
+.sub-hover-options label {
+  font-size: 14px;
+  padding: 0 12px 0 16px;
+}
+
+.bell {
+  width: 24px;
+  height: 24px;
+  margin: 0 2px;
+}
+
+.additional-options-container {
+  margin: inherit;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+.like-dislike {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f0f0f0;
+  height: 36px;
+  border-radius: 18px;
+  margin: 0 10px;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 36px;
+  border-radius: 18px 0 0 18px;
+  padding-left: 16px;
+
+  & label {
+    padding: 0 6px;
+  }
+}
+
+.border-r {
+  border-right: 1px solid #bababa;
+  height: 70%;
+}
+
+.dislike {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 52px;
+  border-radius: 0 18px 18px 0;
+}
+
+.like:hover {
+  background-color: #e0e0e0;
+}
+
+.dislike:hover {
+  background-color: #e0e0e0;
+}
+
+.download {
+  background-color: #f0f0f0;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  width: 118.34px;
+  height: 36px;
+}
+
+.download:hover {
+  background-color: #e0e0e0;
+}
+
+.share {
+  background-color: #f0f0f0;
+  border-radius: 18px;
+}
+
+.share:hover {
+  background-color: #e0e0e0;
+}
+
+.three-dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
+.three-dot:hover {
+  background-color: #e0e0e0;
+}
+
+.share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 18px;
+  height: 36px;
+  width: 92.12px;
+}
+
+.share:hover {
+  background-color: #e0e0e0;
+}
+
+label {
+  margin: 0 4px;
+}
+
+.secondary {
+  padding: 24px 24px 0 0;
+}

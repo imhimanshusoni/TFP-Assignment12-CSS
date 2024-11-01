@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player</title>
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="player.css" />
+    <link
+      rel="shortcut icon"
+      href="favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Nav Section -->
+    <nav class="nav-container">
+      <div class="nav-button-wrapper">
+        <a href="index.html"><label class="inside">Home</label></a>
+        <label class="inside">About</label>
+        <label class="inside">Help</label>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search" /><button class="search-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#5f6368"
+          >
+            <path
+              d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="profile"></div>
+    </nav>
+    <!-- Main Section -->
+    <div class="main-component">
+      <div class="primary">
+        <div class="video-container">
+          <div class="video-iframe">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/Hu-EPelY7Yo?si=6mar5L_5Q1mCUyLA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video-title-container">
+            <label class="video-title"
+              >Linked List Data Structure | Insertion and Deletion in LL |
+              Complete DSA Couse | L-73</label
+            >
+          </div>
+          <div class="channel-details-container">
+            <div class="channel-details-options">
+              <div class="channel-pic-continer">
+                <img
+                  src="VideoPlayerIcons/ppa_channel_logo.jpg"
+                  alt="channel_logo"
+                  class="channel-pic"
+                />
+              </div>
+              <div class="channel-name-container">
+                <label class="channel-name">Programming Pathshala</label>
+                <label class="subscriptions-count">12.5K Subscribers</label>
+              </div>
+              <div class="subscribe">
+                <div class="bell">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="24px"
+                    fill="#000000"
+                  >
+                    <path
+                      d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"
+                    />
+                  </svg>
+                </div>
+                <label>Subscribed</label>
+                <div class="bell">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="24px"
+                    fill="#000000"
+                  >
+                    <path
+                      d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="additional-options-container">
+              <div class="like-dislike">
+                <div class="like">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20px"
+                    viewBox="0 -960 960 960"
+                    width="20px"
+                    fill="#000000"
+                  >
+                    <path
+                      d="M720-144H264v-480l288-288 32 22q17 12 26 30.5t5 38.5l-1 5-38 192h264q30 0 51 21t21 51v57q0 8-1.5 14.5T906-467L786.93-187.8Q778-168 760-156t-40 12Zm-384-72h384l120-279v-57H488l49-243-201 201v378Zm0-378v378-378Zm-72-30v72H120v336h144v72H48v-480h216Z"
+                    />
+                  </svg>
+                  <label class="like-count">6.5K</label>
+                </div>
+                <div class="border-r"></div>
+                <div class="dislike">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20px"
+                    viewBox="0 -960 960 960"
+                    width="20px"
+                    fill="#000000"
+                  >
+                    <path
+                      d="M240-816h456v480L408-48l-32-22q-17-12-26-30.5t-5-38.5l1-5 38-192H120q-30 0-51-21t-21-51v-57q0-8 1.5-14.5T54-493l119-279q8-20 26.5-32t40.5-12Zm384 72H240L120-465v57h352l-49 243 201-201v-378Zm0 378v-378 378Zm72 30v-72h144v-336H696v-72h216v480H696Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="share">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20px"
+                  viewBox="0 -960 960 960"
+                  width="20px"
+                  fill="#000000"
+                >
+                  <path
+                    d="m654-300-51-51 159-159-159-159 51-51 210 210-210 210Zm-510 90v-144q0-80 56-136t136-56h198L411-669l51-51 210 210-210 210-51-51 123-123H336q-50 0-85 35t-35 85v144h-72Z"
+                  />
+                </svg>
+                <label>Share</label>
+              </div>
+              <div class="download">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20px"
+                  viewBox="0 -960 960 960"
+                  width="20px"
+                  fill="#000000"
+                >
+                  <path
+                    d="M192-144v-72h576v72H192Zm288-144L288-480l51-51 105 105v-390h72v390l105-105 51 51-192 192Z"
+                  />
+                </svg>
+                <label>Download</label>
+              </div>
+              <div class="three-dot">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20px"
+                  viewBox="0 -960 960 960"
+                  width="20px"
+                  fill="#000000"
+                >
+                  <path
+                    d="M263.79-408Q234-408 213-429.21t-21-51Q192-510 213.21-531t51-21Q294-552 315-530.79t21 51Q336-450 314.79-429t-51 21Zm216 0Q450-408 429-429.21t-21-51Q408-510 429.21-531t51-21Q510-552 531-530.79t21 51Q552-450 530.79-429t-51 21Zm216 0Q666-408 645-429.21t-21-51Q624-510 645.21-531t51-21Q726-552 747-530.79t21 51Q768-450 746.79-429t-51 21Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="secondary"></div>
+    </div>
+  </body>
+</html>
