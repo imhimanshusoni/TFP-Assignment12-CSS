@@ -76,6 +76,7 @@ iframe {
 }
 
 .subscribe {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -115,7 +116,12 @@ iframe {
   margin-left: 50px;
 }
 
+.additional-options-label {
+  cursor: pointer;
+}
+
 .like-dislike {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -163,7 +169,12 @@ iframe {
   height: 36px;
 }
 
+label {
+  cursor: pointer;
+}
+
 .three-dot {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -265,6 +276,7 @@ iframe {
 }
 
 .compact-video-renderer {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   height: 94px;
@@ -347,6 +359,7 @@ iframe {
 }
 
 .shorts-card-container {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
